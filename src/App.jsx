@@ -33,7 +33,7 @@ import {
 } from "lucide-react";
 import "@xyflow/react/dist/style.css";
 import './index.css';
-
+import PopUp from "./PopUp";
 
 const colorPalette = {
   blue: { hex: "#3b82f6", name: "Blue" },
@@ -352,6 +352,7 @@ export default function App() {
 
   return (
     <div className={`w-screen h-screen ${theme === "dark" ? "bg-gray-900" : "bg-white"}`}>
+      <PopUp />
       <ReactFlow
         nodes={nodes}
         edges={edges}
