@@ -6,7 +6,7 @@ const SocialPanel = () => {
     { icon: Github, href: "https://github.com/purvaspatel?tab=repositories" },
     { icon: Linkedin, href: "https://www.linkedin.com/in/purvapatel24/" },
     { icon: Instagram, href: "https://instagram.com/purvvvva" },
-    { icon: Twitter, href: "https://x.com/yourprofile" }
+    { icon: Twitter, href: "https://x.com/purvaspatel" }
   ];
 
   return (

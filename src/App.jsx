@@ -1,5 +1,6 @@
 import React, { useCallback, useState } from "react";
 import SocialPanel from "./SocialPanel";
+import MobileWarning from "./MobileWarning";
 import { NodeResizer } from "@xyflow/react";
 import {
   ReactFlow,
@@ -352,6 +353,7 @@ export default function App() {
 
   return (
     <div className={`w-screen h-screen ${theme === "dark" ? "bg-gray-900" : "bg-white"}`}>
+      <MobileWarning/>
       <PopUp />
       <ReactFlow
         nodes={nodes}
